@@ -239,7 +239,7 @@ No additional package installation is required. All dependencies are available i
 
 ## Limitations
 
-1. **Synthetic data** — the dataset was generated to replicate realistic clinical distributions for methodology development. Results are not clinical evidence and cannot be used for patient diagnosis, treatment planning, or causal inference.
+1. **Synthetic data** — the dataset was generated using realistic clinical distributions for methodology development. Results are not clinical evidence and cannot be used for patient diagnosis, treatment planning, or causal inference.
 2. **K=4 is a clinical override** — the pure statistical metrics favoured K=2. The selection of K=4 reflects a clinical interpretability judgement and introduces analyst subjectivity.
 3. **Moderate silhouette score** — 0.1187 is typical for mixed high-dimensional clinical data with overlapping continuous distributions. Segments are statistically real but not sharply bounded.
 4. **Algorithm sensitivity** — hierarchical clustering ARI of 0.4549 indicates the segment structure depends to some degree on the choice of algorithm. Gaussian Mixture Models or HDBSCAN may produce different boundaries.
@@ -247,8 +247,3 @@ No additional package installation is required. All dependencies are available i
 6. **Observational treatment patterns** — treatment-response differences reflect programmed associations in the synthetic simulation, not causal treatment effects.
 7. **No external validation** — the segmentation has not been applied to an independent dataset.
 
----
-
-## Disclaimer
-
-This project uses entirely **synthetic data** and is intended for analytics methodology development, notebook engineering demonstration, and portfolio purposes only. It does not constitute clinical research, medical advice, or real-world patient analysis. No real patient data was used at any stage.
