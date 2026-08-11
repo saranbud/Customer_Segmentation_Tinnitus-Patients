@@ -16,13 +16,12 @@ End-to-end unsupervised patient segmentation pipeline built on Databricks, using
 - [How to Run](#how-to-run)
 - [Environment](#environment)
 - [Limitations](#limitations)
-- [Disclaimer](#disclaimer)
 
 ---
 
 ## Overview
 
-Tinnitus is a heterogeneous condition. Patients differ substantially across tinnitus severity, hearing-loss burden, psychological distress, sleep disruption, duration of symptoms, noise exposure history, and treatment engagement. Treating the population as a single cohort obscures clinically important subgroups and leads to undifferentiated outreach and support strategies.
+I actually suffer from this hahahah and Its a super personal project that I wanted to work on . Tinnitus is a heterogeneous condition. Patients differ substantially across tinnitus severity, hearing-loss burden, psychological distress, sleep disruption, duration of symptoms, noise exposure history, and treatment engagement. Treating the population as a single cohort obscures clinically important subgroups and leads to undifferentiated outreach and support strategies.
 
 This project applies K-Means clustering with full preprocessing, validation, and interpretive profiling to identify four distinct patient segments from a 10,000-patient synthetic cohort. The output is a segment model with named, ranked, and statistically validated patient groups, saved to a Unity Catalog Delta Lakehouse and visualized in a live AI/BI dashboard.
 
