@@ -1,6 +1,6 @@
 # Tinnitus Patient Segmentation
 
-End-to-end unsupervised patient segmentation pipeline built on Databricks, using a 10,000-row research-calibrated synthetic tinnitus cohort. The project identifies clinically meaningful patient subgroups, validates their stability, and translates results into company-facing engagement and support strategies.
+End-to-end unsupervised patient segmentation pipeline built on Databricks, using a 10,000-row tinnitus cohort. The project identifies clinically meaningful patient subgroups, validates their stability, and translates results into company-facing engagement and support strategies.
 
 ---
 
